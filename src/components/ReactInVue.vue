@@ -1,0 +1,18 @@
+<template>
+    <div id="react-root"></div>
+  </template>
+  
+  <script>
+  import { renderReactComponent, clearReactComponent } from '../ReactWrapper.jsx'; // Adjust the path as necessary
+  
+  export default {
+    name: 'ReactInVue',
+    mounted() {
+      renderReactComponent("react-root");
+    },
+    beforeDestroy() {
+      clearReactComponent("react-root");
+    }
+  };
+  </script>
+  
