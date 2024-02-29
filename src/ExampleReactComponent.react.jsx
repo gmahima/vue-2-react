@@ -4,5 +4,6 @@ import React from "react";
 const ExampleReactComponent = () => {
   return <div>Hello from React inside Vue!</div>;
 };
+console.log("from Example", ExampleReactComponent)
 
 export default ExampleReactComponent;

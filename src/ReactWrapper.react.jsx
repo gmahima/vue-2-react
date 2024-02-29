@@ -2,7 +2,7 @@
 // eslint-disable-next-line
 import React from 'react';
 import ReactDOM from 'react-dom';
-import ExampleReactComponent from './ExampleReactComponent'; // Adjust the import path as necessary
+import ExampleReactComponent from './ExampleReactComponent.react'; // Adjust the import path as necessary
 
 export function renderReactComponent(containerId) {
     console.log(ExampleReactComponent);

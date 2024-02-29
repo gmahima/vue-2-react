@@ -1,18 +1,20 @@
 <template>
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
-    <ReactInVue />
+    <ExampleReactComponentInVue />
     <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
   </div>
 </template>
 
 <script>
-import ReactInVue from './components/ReactInVue.vue'
-
+// import ReactInVue from './components/ReactInVue.vue'
+import ExampleReactComponent from './ExampleReactComponent.react';
+  import { ReactInVue } from "vuera-ts";
+  const ExampleReactComponentInVue = ReactInVue(ExampleReactComponent)
 export default {
   name: 'App',
   components: {
-    ReactInVue
+    ExampleReactComponentInVue
   }
 }
 </script>

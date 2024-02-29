@@ -3,8 +3,8 @@
   </template>
   
   <script>
-  import { renderReactComponent, clearReactComponent } from '../ReactWrapper.jsx'; // Adjust the path as necessary
-  
+  import { renderReactComponent, clearReactComponent } from '../ReactWrapper.react.jsx'; // Adjust the path as necessary
+
   export default {
     name: 'ReactInVue',
     mounted() {
